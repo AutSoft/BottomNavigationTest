@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity implements OneFragment.OnFra
 					case R.id.action_three:
 						fragment = ThreeFragment.newInstance();
 						break;
-					case R.id.action_four:
+					/*case R.id.action_four:
 						fragment = FourFragment.newInstance();
-						break;
+						break;*/
 				}
 				if (fragment != null) {
 					FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();

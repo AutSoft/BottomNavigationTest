@@ -13,8 +13,8 @@
 		android:id="@+id/action_three"
 		android:icon="@android:drawable/ic_dialog_email"
 		android:title="@string/three"/>
-	<item
+	<!--<item
 		android:id="@+id/action_four"
 		android:icon="@android:drawable/ic_popup_reminder"
-		android:title="@string/four"/>
+		android:title="@string/four"/>-->
 </menu>

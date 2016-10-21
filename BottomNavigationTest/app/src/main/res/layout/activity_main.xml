@@ -24,19 +24,33 @@
 	</android.support.design.widget.AppBarLayout>
 
 	<FrameLayout
-		android:id="@+id/frame_layout"
 		android:layout_width="match_parent"
 		android:layout_height="0dp"
-		android:layout_weight="1"/>
+		android:layout_weight="1">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:layout_gravity="center"
+			android:alpha="0.5"
+			android:src="@drawable/autsoft_logo"/>
+
+		<FrameLayout
+			android:id="@+id/frame_layout"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+
+	</FrameLayout>
 
 	<android.support.design.widget.BottomNavigationView
 		android:id="@+id/bottom_navigation_view"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_gravity="start"
 		app:itemBackground="@color/darkGrey"
 		app:itemIconTint="@color/bottom_navigation_item_background_colors"
 		app:itemTextColor="@color/bottom_navigation_item_background_colors"
-		app:menu="@menu/menu_bottom_navigation" />
+		app:menu="@menu/menu_bottom_navigation"/>
 
 </LinearLayout>

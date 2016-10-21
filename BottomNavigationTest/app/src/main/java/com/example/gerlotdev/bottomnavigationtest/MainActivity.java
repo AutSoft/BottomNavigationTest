@@ -10,7 +10,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity implements OneFragment.OnFragmentInteractionListener,
-		TwoFragment.OnFragmentInteractionListener, ThreeFragment.OnFragmentInteractionListener {
+		TwoFragment.OnFragmentInteractionListener, ThreeFragment.OnFragmentInteractionListener,
+		FourFragment.OnFragmentInteractionListener {
 
 	private Toolbar toolbar;
 	private BottomNavigationView bottomNavigationView;
@@ -41,6 +42,9 @@ public class MainActivity extends AppCompatActivity implements OneFragment.OnFra
 						break;
 					case R.id.action_three:
 						fragment = ThreeFragment.newInstance();
+						break;
+					case R.id.action_four:
+						fragment = FourFragment.newInstance();
 						break;
 				}
 				if (fragment != null) {

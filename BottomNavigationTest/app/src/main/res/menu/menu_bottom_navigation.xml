@@ -4,13 +4,17 @@
 	<item
 		android:id="@+id/action_one"
 		android:icon="@android:drawable/ic_dialog_map"
-		android:title="One"/>
+		android:title="@string/one"/>
 	<item
 		android:id="@+id/action_two"
 		android:icon="@android:drawable/ic_dialog_info"
-		android:title="Two"/>
+		android:title="@string/two"/>
 	<item
 		android:id="@+id/action_three"
 		android:icon="@android:drawable/ic_dialog_email"
-		android:title="Three"/>
+		android:title="@string/three"/>
+	<item
+		android:id="@+id/action_four"
+		android:icon="@android:drawable/ic_popup_reminder"
+		android:title="@string/four"/>
 </menu>
